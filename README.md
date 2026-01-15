@@ -1,30 +1,20 @@
-# curso-python-pip
+# Game Project
 
-Verificar donde esta python y pip
+Para correr el juego debes seguir las siguientes instrucciones en la terminal:
 
-which python3
+```sh
+cd game
+python3 main.py
+```
 
-which pip3
 
-Si estas en linus o wsl debes instalar
+# App Project
 
-sudo apt install -y python3-venv
-Poner cada proyecto en su propio ambiente, entrar en cada carpeta.
-
+```sh
+git clone
+cd app
 python3 -m venv env
-Activar el ambiente
-
 source env/bin/activate
-Salir del ambiente virtual
-
-deactivate
-Podemos instalar las librerias necesarias en el ambiente virtual como por ejemplo
-
-pip3 install matplotlib==3.5.0
-Verificar las instalaciones
-
-pip3 freeze
-
-pip3 freeze > requirements.txt
-
 pip3 install -r requirements.txt
+python3 main.py
+```
