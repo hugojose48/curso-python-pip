@@ -10,7 +10,7 @@ python3 main.py
 
 # App Project
 
-'''Python venv'''
+---Python venv---
 ```sh
 git clone
 cd app
@@ -19,8 +19,8 @@ source env/bin/activate
 pip3 install -r requirements.txt
 python3 main.py
 ```
-'''Docker virtual env'''
-# Create the Dockerfile and the docker-compose 
+---Docker container---
+Create the Dockerfile and the docker-compose 
 ```sh
 git clone
 cd app
@@ -34,7 +34,7 @@ python main.py
 
 # web-server Project
 
-'''Python venv'''
+---Python venv---
 ```sh
 git clone
 cd app
@@ -44,8 +44,8 @@ pip3 install -r requirements.txt
 uvicorn main:app --reload
 ```
 
-'''Docker virtual env'''
-# Create the Dockerfile and the docker-compose 
+---Docker container---
+Create the Dockerfile and the docker-compose 
 ```sh
 git clone
 cd app
